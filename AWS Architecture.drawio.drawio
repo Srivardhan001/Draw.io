@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-03-08T07:23:50.817Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="gUB-O-IUFDKpzH6MfMQP" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-08T07:26:31.022Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="UHAJfZLSA5I3da-6a1T2" version="21.0.2" type="github">
   <diagram name="Page-1" id="OJ9K4fVp2WeW4gbsnORe">
-    <mxGraphModel dx="3900" dy="3188" grid="1" gridSize="16" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5220" dy="3780" grid="1" gridSize="16" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="8TCE1AWB-kzEoh0_JjSI-2" value="" style="rounded=1;fillColor=none;gradientColor=none;arcSize=10;dashed=1;strokeWidth=5;" parent="1" vertex="1">
-          <mxGeometry x="149" y="-1100" width="1291" height="1916" as="geometry" />
+          <mxGeometry x="71.5" y="-1056" width="1291" height="1916" as="geometry" />
         </mxCell>
         <mxCell id="8TCE1AWB-kzEoh0_JjSI-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/boxicons-logos/24/bxl-aws-128.png" parent="1" vertex="1">
           <mxGeometry x="103" y="-1180" width="173" height="173" as="geometry" />
@@ -139,7 +139,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8TCE1AWB-kzEoh0_JjSI-84" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;This is RDS service from AWS in which our data base is available.&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};shadow=1;glass=0;labelBackgroundColor=default;labelBorderColor=none;sketch=0;fontFamily=Tahoma;fontSize=19;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-600" y="416" width="688" height="48" as="geometry" />
+          <mxGeometry x="-688" y="400" width="688" height="48" as="geometry" />
         </mxCell>
         <mxCell id="8TCE1AWB-kzEoh0_JjSI-85" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;sketch=1;strokeColor=default;strokeWidth=2;fontFamily=Tahoma;fontSize=19;fontColor=default;jumpStyle=line;jumpSize=0;" parent="1" source="8TCE1AWB-kzEoh0_JjSI-30" target="8TCE1AWB-kzEoh0_JjSI-84" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -147,7 +147,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8TCE1AWB-kzEoh0_JjSI-95" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Private Subnet in which our instances were available here these are accessed by using Jump Server/ Bastean server&lt;br&gt;These were created attaching to the vpc available.&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};shadow=1;glass=0;labelBackgroundColor=default;labelBorderColor=none;sketch=0;fontFamily=Tahoma;fontSize=19;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-1064" y="219" width="1184" height="80" as="geometry" />
+          <mxGeometry x="-1184" y="211" width="1184" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8TCE1AWB-kzEoh0_JjSI-96" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;sketch=1;strokeColor=default;strokeWidth=2;fontFamily=Tahoma;fontSize=19;fontColor=default;jumpStyle=line;jumpSize=0;" parent="1" source="8TCE1AWB-kzEoh0_JjSI-14" target="8TCE1AWB-kzEoh0_JjSI-95" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -163,7 +163,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8TCE1AWB-kzEoh0_JjSI-102" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Route tables to&amp;nbsp; allow the access based on Subnet association attached with VPC having internet or not&lt;br&gt;1. Nat gateway attached subnet to be given here for internet access.&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};shadow=1;glass=0;labelBackgroundColor=default;labelBorderColor=none;sketch=0;fontFamily=Tahoma;fontSize=19;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-744" y="-816" width="1008" height="80" as="geometry" />
+          <mxGeometry x="-1024" y="-848" width="1008" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8TCE1AWB-kzEoh0_JjSI-103" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;sketch=1;strokeColor=default;strokeWidth=2;fontFamily=Tahoma;fontSize=19;fontColor=default;jumpStyle=line;jumpSize=0;" parent="1" source="8TCE1AWB-kzEoh0_JjSI-48" target="8TCE1AWB-kzEoh0_JjSI-102" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -194,24 +194,24 @@
             <mxPoint x="-208" y="-464" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2_dzKwpgcbAuarmtqN21-3" value="&lt;p style=&quot;line-height: 135%;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Here User will access the link WWW. Example.com in his browser&lt;/font&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="1688" y="-424" width="640" height="64" as="geometry" />
+        <mxCell id="2_dzKwpgcbAuarmtqN21-3" value="&lt;p style=&quot;line-height: 135%;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;Here User will access the link WWW. Example.com in his browser&lt;/font&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="1744" y="-480" width="688" height="64" as="geometry" />
         </mxCell>
         <mxCell id="2_dzKwpgcbAuarmtqN21-4" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.8;exitY=0.231;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="8TCE1AWB-kzEoh0_JjSI-25" target="2_dzKwpgcbAuarmtqN21-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1680" y="-8" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2_dzKwpgcbAuarmtqN21-7" value="&lt;p style=&quot;line-height: 124%;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;IAM Roles and access will be assigned to the user/groups&amp;nbsp;&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="1756" y="-867" width="576" height="64" as="geometry" />
+        <mxCell id="2_dzKwpgcbAuarmtqN21-7" value="&lt;p style=&quot;line-height: 124%;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;IAM Roles and access will be assigned to the user/groups&amp;nbsp;&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="1744" y="-814" width="624" height="64" as="geometry" />
         </mxCell>
         <mxCell id="2_dzKwpgcbAuarmtqN21-8" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.92;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="8TCE1AWB-kzEoh0_JjSI-49" target="2_dzKwpgcbAuarmtqN21-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1968" y="-808" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2_dzKwpgcbAuarmtqN21-11" value="&lt;p style=&quot;line-height: 125%;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;S3 Bucket will eb attached to the AWS&amp;nbsp;&lt;/font&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="1672" y="-672" width="400" height="64" as="geometry" />
+        <mxCell id="2_dzKwpgcbAuarmtqN21-11" value="&lt;p style=&quot;line-height: 125%;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;S3 Bucket will eb attached to the AWS&amp;nbsp;&lt;/font&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="1744" y="-624" width="432" height="64" as="geometry" />
         </mxCell>
         <mxCell id="2_dzKwpgcbAuarmtqN21-12" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" parent="1" source="8TCE1AWB-kzEoh0_JjSI-50" target="2_dzKwpgcbAuarmtqN21-11" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -221,8 +221,8 @@
         <mxCell id="2_dzKwpgcbAuarmtqN21-15" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" parent="1" source="2_dzKwpgcbAuarmtqN21-13" target="8TCE1AWB-kzEoh0_JjSI-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2_dzKwpgcbAuarmtqN21-13" value="&lt;p style=&quot;line-height: 120%;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Cloud Watch and SNS provided to got the alerts based on Disc Usage/networks/logs monitoring etc..,&lt;/font&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=2;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="1704" y="-110" width="944" height="64" as="geometry" />
+        <mxCell id="2_dzKwpgcbAuarmtqN21-13" value="&lt;p style=&quot;line-height: 120%;&quot;&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;Cloud Watch and SNS provided to got the alerts based on Disc Usage/networks/logs monitoring etc..,&lt;/font&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=2;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="1648" y="8.5" width="1040" height="64" as="geometry" />
         </mxCell>
         <mxCell id="2_dzKwpgcbAuarmtqN21-14" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" parent="1" source="8TCE1AWB-kzEoh0_JjSI-51" target="2_dzKwpgcbAuarmtqN21-13" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -230,7 +230,7 @@
           </mxGeometry>
         </mxCell>
         <UserObject label="AWS Architecture for HEALTH CARE Application&#xa;" treeRoot="1" id="2_dzKwpgcbAuarmtqN21-16">
-          <mxCell style="align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontStyle=1;fontSize=51;labelBackgroundColor=none;fontColor=#121212;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxCell style="align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontStyle=1;fontSize=51;labelBackgroundColor=default;fontColor=#121212;whiteSpace=wrap;" parent="1" vertex="1">
             <mxGeometry x="177.12" y="-1392" width="1008" height="224" as="geometry" />
           </mxCell>
         </UserObject>
@@ -291,6 +291,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-272" y="-1014" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zqIEchUWvoSKFCizAut_-1" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2_dzKwpgcbAuarmtqN21-11" target="2_dzKwpgcbAuarmtqN21-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
